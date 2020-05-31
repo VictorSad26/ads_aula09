@@ -24,8 +24,12 @@
                     </li>
 					<li><a href="comprar_filmes.do?acao=menu-comprar-filmes-de-menu-jsp">Comprar Filmes</a></li>
 					<li><a href="#">Carrinho de Compras</a></li>
+					 <a class="nav-link text-white" href="index.html">
+                    <a class="nav-link text-white" href="login.do?acao=logout">
+                        <i class="fas fa-power-off mr-1"></i>Sair
 				</ul>
 			</div>
+			
 			<!--/.nav-collapse -->
 		</div>
 	</nav>

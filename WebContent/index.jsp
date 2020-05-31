@@ -57,16 +57,40 @@
 				</div>
 				<div class="col-md-4"></div>
 			</div>
-			<div class="row">
-				<div class="col-md-4"></div>
-				<div class="col-md-4">
-					<div class="center-block">
-					<img src="img/hora_pipoca.jpg" class="img-responsive"/>
-					</div>
+			<form action="comprar_filmes.do" method="GET">
+						<form action="login.do" method="POST">
+							<div class="input-group form-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-user"></i></span>
+								</div>
+								<input type="email" class="form-control" placeholder="Email" required>
+								<input type="text" name="username" class="form-control" placeholder="Username" required>
+							</div>
+							<div class="input-group form-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text"><i class="fas fa-key"></i></span>
+								</div>
+								<input type="password" class="form-control" placeholder="Senha" required>
+								<input type="password" name="password" class="form-control" placeholder="Senha" required>
+							</div>
+							<div class="row align-items-center remember">
+								<input type="checkbox" class="mr-1">Lembra senha
+							</div>
+							<div class="form-group">
+								<button type="submit" name="acao" value="page-todos" class="btn float-right btn btn btn-danger">Entrar</button>
+								<button type="submit" name="acao" value="login" class="btn float-right btn btn btn-danger">Entrar</button>
+							</div>
+						</form>
+							<div class="row">
+								<div class="col-md-4"></div>
+									<div class="col-md-4">
+										<div class="center-block">
+											<img src="img/hora_pipoca.jpg" class="img-responsive"/>
+										</div>
+									</div>
+								<div class="col-md-4"></div>
+							</div>
 				</div>
-				<div class="col-md-4"></div>
-			</div>
-		</div>
 	</div><!-- /.container -->
 
 
